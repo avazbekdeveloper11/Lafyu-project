@@ -7,6 +7,13 @@ class Constant {
   static String emailIcon = "assets/svg/emailIcon.svg";
   static String passwordIcon = "assets/svg/passwordIcon.svg";
   static String personIcon = "assets/svg/personIcon.svg";
+  static String searchIcon = "assets/svg/searchIcon.svg";
+  static String searchMiniIcon = "assets/svg/searchMiniIcon.svg";
+  static String notificationIcon = "assets/svg/notificationIcon.svg";
+  static String favoriteIcon = "assets/svg/favoriteIcon.svg";
+  // static String searchIcon = "assets/svg/searchIcon.svg";
+  // static String searchIcon = "assets/svg/searchIcon.svg";
+
 
   // Divider 134 hajmda!
   static SizedBox myDivider() => SizedBox(

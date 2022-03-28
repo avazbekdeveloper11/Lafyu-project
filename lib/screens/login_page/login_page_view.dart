@@ -38,7 +38,7 @@ class LoginPageView extends StatelessWidget {
                 controller: _emailController,
                 decoration: MyDeco.forumDeco(
                   hintText: "Your Email",
-                  perfixIcon: Icons.email_outlined,
+                  perfixIcon: Constant.emailIcon,
                 ),
                 validator: (v) => !RegExp(Constant.emailValidate).hasMatch(v!)
                     ? "Your Email Is Not Correct "
@@ -49,7 +49,7 @@ class LoginPageView extends StatelessWidget {
                 obscureText: true,
                 decoration: MyDeco.forumDeco(
                   hintText: "Your Password",
-                  perfixIcon: Icons.lock_outline,
+                  perfixIcon: Constant.passwordIcon,
                 ),
                 validator: (v) => !RegExp(Constant.emailValidate).hasMatch(v!)
                     ? "Oops! Your Password Is Not Correct"

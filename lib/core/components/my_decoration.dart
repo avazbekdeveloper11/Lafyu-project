@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:portifolio/core/colors/colors.dart';
 
 class MyDeco {
   // TEXTFORUMFILEDNING DECORATIONI !
   static InputDecoration forumDeco(
-          {String? hintText, required IconData perfixIcon}) =>
+          {String? hintText, required String perfixIcon}) =>
       InputDecoration(
         hintText: hintText,
-        prefixIcon: Icon(perfixIcon),
+        prefixIcon: SvgPicture.asset(perfixIcon,fit: BoxFit.none,),
         border: const OutlineInputBorder(
           borderRadius: BorderRadius.all(
             Radius.circular(5),
