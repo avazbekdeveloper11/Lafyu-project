@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "928767506535",
+    "project_id": "layfu-372ce",
+    "storage_bucket": "layfu-372ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928767506535:android:c862c6a86b579a9cd83cc2",
+        "android_client_info": {
+          "package_name": "com.lafyu.portifolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928767506535-mos57ni47c25fpijsuucv02gd763c81k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lafyu.portifolio",
+            "certificate_hash": "ccb3a984feee1264ed92d22883d1a20821a04e71"
+          }
+        },
+        {
+          "client_id": "928767506535-f1qpgso48u6brii7ge5l50gm60gs8d61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBckTYUCZizhHpJlGVS9YHZgDZXez2YUTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928767506535-f1qpgso48u6brii7ge5l50gm60gs8d61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
