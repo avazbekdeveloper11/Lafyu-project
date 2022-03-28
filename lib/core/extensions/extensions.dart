@@ -34,4 +34,11 @@ extension WidgetExtension on Widget {
         ),
         child: this,
       );
+
+  InkWell onT({ontap}) => InkWell(
+        highlightColor: Colors.transparent,
+        splashColor: Colors.transparent,
+        onTap: ontap,
+        child: this,
+      );
 }

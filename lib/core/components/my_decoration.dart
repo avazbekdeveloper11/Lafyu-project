@@ -14,7 +14,7 @@ class MyDeco {
           ),
         ),
       );
-  
+
   // CONTAINERNING DECORATIONI !
   static BoxDecoration containerDeco() {
     return BoxDecoration(
@@ -27,6 +27,13 @@ class MyDeco {
           blurRadius: 15.0,
         ),
       ],
+    );
+  }
+
+  static BoxDecoration withGoogleButtonDeco() {
+    return BoxDecoration(
+      borderRadius: BorderRadius.circular(5),
+      border: Border.all(color: MyColors.neutraGrey.withOpacity(0.4)),
     );
   }
 }
