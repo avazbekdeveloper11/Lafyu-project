@@ -10,11 +10,11 @@ class RouteGenerator {
       case "/splash":
         return MaterialPageRoute(builder: (_) => const SplashScreen());
       case "/login":
-        return MaterialPageRoute(builder: (_) => const HomePageView());
+        return MaterialPageRoute(builder: (_) =>  HomePageView());
       case "/home":
-        return MaterialPageRoute(builder: (_) => const HomePageView());
+        return MaterialPageRoute(builder: (_) =>  HomePageView());
       default:
-        return MaterialPageRoute(builder: (_) => const HomePageView());
+        return MaterialPageRoute(builder: (_) =>  HomePageView());
     }
   }
 }

@@ -7,6 +7,17 @@ import 'package:portifolio/core/constant/text_styles.dart';
 import 'package:portifolio/core/extensions/extensions.dart';
 
 class MyCont {
+  // PAGEVIEW CONTAINER
+  static Container pageContainer({img}) {
+    return Container(
+      height: double.infinity,
+      width: double.infinity,
+      margin: EdgeInsets.symmetric(horizontal: getW(16), vertical: getH(16)),
+      decoration: MyDeco.withImageDeco(img: img),
+    );
+  }
+
+  // SEARCH CONTAINER
   static Container searchContainer() {
     return Container(
       width: getW(263),

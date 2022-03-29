@@ -35,8 +35,9 @@ extension WidgetExtension on Widget {
       );
 
   InkWell onT({ontap}) => InkWell(
-        highlightColor: Colors.transparent,
-        splashColor: Colors.transparent,
+        // highlightColor: Colors.transparent,
+        // splashColor: Colors.transparent,
+        radius: 25,
         onTap: ontap,
         child: this,
       );
