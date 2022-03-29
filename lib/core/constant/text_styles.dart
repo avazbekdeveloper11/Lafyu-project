@@ -19,7 +19,7 @@ class MyTextStyles {
 
   // BOLD TEXT STYLE
   static TextStyle boldStyle = TextStyle(
-    fontSize: getW(18),
+    fontSize: getW(15), // 15 * 18
     fontWeight: FontWeight.w700,
     color: MyColors.neutraDark,
   );
